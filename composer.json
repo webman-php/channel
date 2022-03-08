@@ -1,0 +1,14 @@
+{
+  "name": "webman/channel",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "workerman/webman-framework": "^1.2.1",
+    "workerman/channel": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webman\\Channel\\": "src"
+    }
+  }
+}
