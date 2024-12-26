@@ -14,10 +14,12 @@
 
 
 use Webman\Channel\Server;
+use Workerman\Protocols\Frame;
 
 return [
     'server' => [
         'listen'  => 'frame://0.0.0.0:2206',
+        'protocol' => Frame::class,
         'handler' => Server::class,
         'reloadable' => false,
         'count' => 1, // 必须是1
