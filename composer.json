@@ -4,7 +4,7 @@
   "license": "MIT",
   "require": {
     "workerman/webman-framework": "^1.2.1",
-    "workerman/channel": "^1.1"
+    "workerman/channel": "^1.2.2"
   },
   "autoload": {
     "psr-4": {
